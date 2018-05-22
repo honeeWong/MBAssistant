@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="roleCreate_title">"人物创建"</string>
+    <string name="roleGrowUp_title">"成长路线"</string>
+    <string name="roleSimulator_title">"模拟器"</string>
+
+    <string-array name="list_createRole">
+        <item>"初始"</item>
+        <item>"性别"</item>
+        <item>"出生"</item>
+        <item>"少年"</item>
+        <item>"成长"</item>
+        <item>"冒险"</item>
+    </string-array>
+    <string name="roleCreate_init_msg">
+        "首先需要说明的是，游戏中的背景类似于中世纪，在那个时代，战争和政治通常是由男性贵族所支配，所以，在游戏人物的出身选择上要注意，这关乎到游戏初期的难度，男性贵族出身是最简单的，之后依次为，平民男性，贵族女性，而平民女性则难度最大。"
+    </string>
+
+    <string-array name="list_roleCreate_init_value">
+        <item>"人物的基础能力: 5力量，5敏捷，4智力，5魅力"</item>
+        <item>"人物的基础技能: 1骑术，1统御"</item>
+    </string-array>
+
+    <!-- 人物创建 -->
+    <string name="roleCreate_gender_msg">"性别对属性有影响，具体的如下: "</string>
+    <string-array name="list_roleCreate_gender_effect_property">
+        <item>"男: 力量+1，魅力+1"</item>
+        <item>"女: 敏捷+1，智力+1"</item>
+    </string-array>
+
+
+    <string name="roleCreate_father">"出身身份"</string>
+    <!-- 出生身份 可选项 开始-->
+    <string-array name="list_roleCreate_father_effect">
+        <item>"没落的贵族[男]"</item>
+        <item>"属性增加： 智力+1，魅力+2"</item>
+        <item>"技能增加： 武器掌握+1，强击+1，骑术+1，教练+1，领导+1"</item>
+        <item>"熟练增加： 单手熟练+10,双手熟练+10,长杆熟练+10"</item>
+        <item>"地位增加： 声望+100，荣誉+3"</item>
+        <item>"金钱装备： 凹陷的旧圆盾,初始金钱+100"</item>
+        <item>"特殊说明： 可选择旗帜"</item>
+        <item>"--------------------------------------------------"</item>
+        <item>"没落的贵族[女]"</item>
+        <item>"属性增加： 智力+2，魅力+1"</item>
+        <item>"技能增加： 疗伤+1，急救+1，骑术+2，教练+1，战术+1"</item>
+        <item>"熟练增加： 单手熟练+20"</item>
+        <item>"地位增加： 声望+50，荣誉+3"</item>
+        <item>"金钱装备： 凹陷的旧圆盾，初始金钱+100"</item>
+        <item>"特殊说明： 可选择旗帜"</item>
+        <item>"--------------------------------------------------"</item>
+        <item>"旅行商人"</item>
+        <item>"属性增加： 智力+2，魅力+1"</item>
+        <item>"技能增加： 骑术+1，统御+1，交易+2，物品管理+1"</item>
+        <item>"熟练增加： 双手熟练+10"</item>
+        <item>"地位增加： 声望+20"</item>
+        <item>"金钱装备： 初始金钱+250"</item>
+        <item>"特殊说明： 无"</item>
+        <item>"--------------------------------------------------"</item>
+        <item>"老兵"</item>
+        <item>"力量+1，敏捷+1，魅力+1"</item>
+        <item>"猎人"</item>
+        <item>"力量+1，敏捷+2"</item>
+        <item>"游牧民[男]"</item>
+        <item>"力量+1，敏捷+1"</item>
+        <item>"游牧民[女]"</item>
+        <item>"力量+1，敏捷+1，智力+1"</item>
+        <item>"盗贼"</item>
+        <item>"敏捷+3"</item>
+    </string-array>
+    <!-- 出生身份 可选项 结束-->
+    <string name="roleCreate_young">"少年经历"</string>
+    <!-- 少年经历 可选项 开始-->
+    <string-array name="list_roleCreate_young">
+        <item>"贵族侍从"</item>
+        <item>"手工匠学徒"</item>
+        <item>"大街上的顽童"</item>
+        <item>"草原上的孩子"</item>
+        <item>"商人的帮手"</item>
+    </string-array>
+    <!-- 少年经历 可选项 结束-->
+
+    <string name="roleCreate_once">"成长经历"</string>
+    <!-- 成长经历 可选项 开始-->
+    <string-array name="list_roleCreate_once">
+        <item>"骑士扈从"</item>
+        <item>"吟游诗人"</item>
+        <item>"小商贩"</item>
+        <item>"铁匠"</item>
+        <item>"偷猎者"</item>
+    </string-array>
+    <!-- 成长经历 可选项 结束-->
+    <string name="roleCreate_whyHere">"冒险原因"</string>
+    <!-- 冒险原因 可选项 开始-->
+    <string-array name="list_roleCreate_whyHere">
+        <item>"私人恩怨"</item>
+        <item>"失去爱人"</item>
+        <item>"探险的爱好"</item>
+        <item>"从家里被驱赶了出来"</item>
+        <item>"对于权力与财富的渴望"</item>
+    </string-array>
+    <!-- 冒险原因 可选项 结束-->
+
+
+    <!-- 成长建议 -->
+    <string name="roleGrowUpAdviseTitle">"成长建议"</string>
+
+</resources>

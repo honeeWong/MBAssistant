@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="role_base_property">"基本属性"</string>
+    <string name="role_skills">"技能"</string>
+    <string name="role_weapon_skills">"武器熟练度"</string>
+    <string name="role_other_property">"其他属性"</string>
+
+</resources>

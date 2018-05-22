@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorCoverItemTitle">#000000</color>
+    <color name="colorRoleBackground">#b4eae9e9</color>
+    <color name="colorRoleTitle">#000000</color>
+    <color name="colorRoleTabIndicator">#3F51B5</color>
+    <color name="colorRoleTabSelectedText">#ff4800</color>
+    <color name="colorRoleTabText">#000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- role table host color -->
+    <color name="role_bottom_text_select">#ff4800</color>
+    <color name="role_bottom_text_normal">#000000</color>
+
+</resources>

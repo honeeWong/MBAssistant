@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.app.FragmentTabHost android:id="@android:id/tabhost"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/role_all_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:titleTextColor="@color/colorRoleTitle">
+
+        <TextView
+            android:id="@+id/role_all_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:text="@string/role"
+            android:textColor="@color/colorRoleTitle"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <View
+            android:layout_height="3px"
+            android:layout_width="match_parent"
+            android:background="#c8603316" />
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="bottom"/>
+    </LinearLayout>
+
+</android.support.v4.app.FragmentTabHost>

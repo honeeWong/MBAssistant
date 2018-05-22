@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">"MB Assistant"</string>
+    <string name="title">"骑马与砍杀：战团"</string>
+    <!-- 版本号 -->
+    <string name="app_version">"版本号：MB Assistant version 0.0.1"</string>
+    <!-- 主界面的菜单栏  -->
+    <string name="role">人物角色</string>
+    <string name="attribute_skill">属性和技能</string>
+    <string name="item">物品和装备</string>
+    <string name="follower">随从和领主</string>
+    <string name="country_army">国家和军队</string>
+    <string name="fight">战斗和荣誉</string>
+    <string name="quest_honor">任务和声望</string>
+    <string name="guide">自立</string>
+    <string name="about">关于</string>
+    <!-- 人物创建 -->
+    <string name="roleCreate_result_title">"统计结果"</string>
+
+
+
+
+
+
+</resources>

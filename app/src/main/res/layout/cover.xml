@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.mb.assistant.CoverActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/grid_view_all_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60sp">
+
+        <TextView
+            android:id="@+id/grid_view_all_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="@string/title"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:layout_height="3px"
+        android:layout_width="match_parent"
+        android:background="#c8603316" />
+
+    <com.view.CoverGridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5sp"
+        android:layout_weight="1"
+        android:horizontalSpacing="0.5dip"
+        android:listSelector="@null"
+        android:numColumns="3"
+        android:padding="0.5dip"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="0.5dip" />
+
+    <View
+        android:layout_height="1.5px"
+        android:layout_width="match_parent"
+        android:background="#c8603316" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_marginTop="13sp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="@string/app_version"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+</LinearLayout>
+
+
+
+
